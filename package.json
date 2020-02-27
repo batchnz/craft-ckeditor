@@ -2,7 +2,7 @@
   "private": true,
   "main": "gulpfile.js",
   "devDependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^1.0.0-alpha.2",
+    "@ckeditor/ckeditor5-build-classic": "^1.0.0",
     "craftcms-sass": "^1.3.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
