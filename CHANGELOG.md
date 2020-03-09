@@ -1,5 +1,10 @@
 # Release Notes for CKEditor for Craft CMS
 
+## 1.1.2 - 2020-03-09
+
+### Fixed
+- Fixed another issue with the plugin handle name
+
 ## 1.1.1 - 2020-03-09
 
 ### Fixed

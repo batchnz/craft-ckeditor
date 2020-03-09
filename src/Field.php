@@ -62,7 +62,7 @@ class Field extends \craft\base\Field
      */
     public function getSettingsHtml()
     {
-        return Craft::$app->getView()->renderTemplate('ckeditor/_field_settings', [
+        return Craft::$app->getView()->renderTemplate('craft-ckeditor/_field_settings', [
             'field' => $this,
             'purifierConfigOptions' => $this->_getCustomConfigOptions('htmlpurifier'),
             'ckeditorConfigOptions' => $this->_getCustomConfigOptions('ckeditor'),
