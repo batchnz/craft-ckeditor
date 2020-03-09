@@ -1,6 +1,6 @@
 <?php
 
-namespace craft\ckeditor;
+namespace batchnz\ckeditor;
 
 use craft\events\RegisterComponentTypesEvent;
 use craft\services\Fields;

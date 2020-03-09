@@ -1,6 +1,6 @@
 <?php
 
-namespace craft\ckeditor\assets\ckeditor;
+namespace batchnz\ckeditor\assets\ckeditor;
 
 use craft\web\AssetBundle;
 

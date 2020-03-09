@@ -1,10 +1,10 @@
 <?php
 
-namespace craft\ckeditor;
+namespace batchnz\ckeditor;
 
 use Craft;
 use craft\base\ElementInterface;
-use craft\ckeditor\assets\field\FieldAsset;
+use batchnz\ckeditor\assets\field\FieldAsset;
 use craft\helpers\FileHelper;
 use craft\helpers\HtmlPurifier;
 use craft\helpers\Json;

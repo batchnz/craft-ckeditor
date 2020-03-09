@@ -1,7 +1,7 @@
 {
-  "name": "craftcms/ckeditor",
+  "name": "batchnz/craft-ckeditor",
   "description": "Edit rich text content in Craft CMS using CKEditor.",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.5",
   "type": "craft-plugin",
   "keywords": [
     "html",
@@ -15,26 +15,30 @@
     {
       "name": "Pixel & Tonic",
       "homepage": "https://pixelandtonic.com/"
+    },
+    {
+      "name": "Batch Development",
+      "homepage": "https://www.batch.nz/"
     }
   ],
   "support": {
     "email": "support@craftcms.com",
-    "issues": "https://github.com/craftcms/ckeditor/issues?state=open",
-    "source": "https://github.com/craftcms/ckeditor",
-    "docs": "https://github.com/craftcms/ckeditor/blob/master/README.md",
-    "rss": "https://github.com/craftcms/ckeditor/commits/master.atom"
+    "issues": "https://github.com/batch/craft-ckeditor/issues?state=open",
+    "source": "https://github.com/batch/craft-ckeditor",
+    "docs": "https://github.com/batch/craft-ckeditor/blob/master/README.md",
+    "rss": "https://github.com/batch/craft-ckeditor/commits/master.atom"
   },
   "require": {
     "craftcms/cms": "^3.0.0-RC15"
   },
   "autoload": {
     "psr-4": {
-      "craft\\ckeditor\\": "src/"
+      "batchnz\\ckeditor\\": "src/"
     }
   },
   "extra": {
     "name": "CKEditor",
-    "handle": "ckeditor",
-    "documentationUrl": "https://github.com/craftcms/ckeditor/blob/master/README.md"
+    "handle": "craft-ckeditor",
+    "documentationUrl": "https://github.com/batchnz/craft-ckeditor/blob/master/README.md"
   }
 }

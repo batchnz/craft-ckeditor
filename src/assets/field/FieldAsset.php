@@ -5,9 +5,9 @@
  * @license MIT
  */
 
-namespace craft\ckeditor\assets\field;
+namespace batchnz\ckeditor\assets\field;
 
-use craft\ckeditor\assets\ckeditor\CkeditorAsset;
+use batchnz\ckeditor\assets\ckeditor\CkeditorAsset;
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
 
