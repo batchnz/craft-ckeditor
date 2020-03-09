@@ -1,9 +1,11 @@
 # Release Notes for CKEditor for Craft CMS
 
-## Unreleased
+## 1.1.0 - 2020-03-09
 
 ### Changed
-- CKEditor fields’ default HTML Purifier config now allows `id` attributes. ([craftcms/redactor#82](https://github.com/craftcms/redactor/issues/82)) 
+- Added the @ckeditor/ckeditor5-table plugin
+- Added changes from https://github.com/sokolovstas/ckeditor/commit/ad1f1445080e8148ee6e3981e9a972be98952c74
+- CKEditor fields’ default HTML Purifier config now allows `id` attributes. ([craftcms/redactor#82](https://github.com/craftcms/redactor/issues/82))
 
 ### Fixed
 - Fixed a deprecation error when running CKEditor on Craft 3.0.0-RC15 or later.
