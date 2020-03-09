@@ -28,7 +28,7 @@ class Field extends \craft\base\Field
      */
     public static function displayName(): string
     {
-        return Craft::t('ckeditor', 'CKEditor');
+        return Craft::t('craft-ckeditor', 'CKEditor');
     }
 
     // Properties
